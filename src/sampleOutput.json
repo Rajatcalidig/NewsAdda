@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 38,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Sam Meredith",
+            "title": "‘The situation is serious’: Germany plans to fire up coal plants as Russia throttles gas supplies - CNBC",
+            "description": "Germany says it will compensate for a cut in Russian gas supply by increasing the burning of coal — the most carbon-intensive fossil fuel in terms of emissions.",
+            "url": "https://www.cnbc.com/2022/06/20/ukraine-war-germany-turns-to-coal-as-russia-throttles-gas-supplies.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107078041-1655716854463-gettyimages-1240851443-GERMANY_UNIPER.jpeg?v=1655717653&w=1920&h=1080",
+            "publishedAt": "2022-06-20T10:02:36Z",
+            "content": "Germany plans to compensate for a cut in Russian gas supplies by increasing the burning of coal the most carbon-intensive fossil fuel in terms of emissions.\r\nGermany has said the deteriorating gas ma… [+3324 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "More than 100 killed in Ethiopia's Oromia region: Witnesses - Al Jazeera English",
+            "description": "More than 100 people, mostly from the Amhara ethnic group, have been killed in an attack in Ethiopia’s Oromia region, according to witnesses, who blamed the ...",
+            "url": "https://www.youtube.com/watch?v=iqLkuSkaeu8",
+            "urlToImage": "https://i.ytimg.com/vi/iqLkuSkaeu8/hqdefault.jpg",
+            "publishedAt": "2022-06-20T09:54:46Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Holly Yan and Raja Razek, CNN",
+            "title": "Yellowstone National Park south loop to reopen Wednesday, but only certain visitors will be allowed in each day - CNN",
+            "description": "The park -- which spans parts of Montana, Wyoming, and Idaho -- and many surrounding towns have been inundated with record rainfall and flooding since last weekend, prompting officials to close all entrances into Yellowstone.",
+            "url": "https://www.cnn.com/2022/06/19/us/yellowstone-reopening-south-loop/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220619085426-yellowstone-national-park-flooding-0615-super-tease.jpg",
+            "publishedAt": "2022-06-20T09:28:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Emily Rauhala, Bryan Pietsch, Victoria Bisset, Rachel Pannett, Jennifer Hassan, Andrea Salcedo",
+            "title": "Latest Russia-Ukraine war news: Live updates - The Washington Post",
+            "description": "Ukraine counterattacks in Kherson, Mykolaiv and Zaporizhzhia region. Russia's grain blockade is a « war crime, » E.U. official says.",
+            "url": "https://www.washingtonpost.com/world/2022/06/20/russia-ukraine-war-putin-news-live-updates/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://d1i4t8bqe7zgj6.cloudfront.net/06-20-2022/t_0e7581d974154f70adeb60f7a16a6153_name_Chernihiv_1.png&w=1440",
+            "publishedAt": "2022-06-20T09:10:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "SciTechDaily"
+            },
+            "author": null,
+            "title": "Astronomers Discover Evidence for Most Powerful Pulsar in Distant Galaxy - SciTechDaily",
+            "description": "Astronomers analyzing data from the VLA Sky Survey (VLASS) have discovered one of the youngest known neutron stars — the superdense remnant of a massive star that exploded as a supernova. Images from the National Science Foundation’s Karl G. Jansky Very Large…",
+            "url": "https://scitechdaily.com/astronomers-discover-evidence-for-most-powerful-pulsar-in-distant-galaxy/",
+            "urlToImage": "https://scitechdaily.com/images/Shell-of-Explosion-Debris-From-Supernova-scaled.jpg",
+            "publishedAt": "2022-06-20T08:33:23Z",
+            "content": "ByNational Radio Astronomy ObservatoryJune 20, 2022\r\nAs the shell of explosion debris from the supernova expands over a few decades, it becomes less dense and eventually becomes thin enough that radi… [+9132 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "WJLA"
+            },
+            "author": "7News Staff",
+            "title": "Teen killed, officer, 2 others shot during 'unpermitted' Moechella event in Northwest DC - WJLA",
+            "description": "A teen is dead and three others are injured, including an officer, after a shootingin Northwest Sunday night,Chief Robert Contee III said at a media briefing. Contee said police units responded to 14th & U Street NW at about 9:30 p. m. Caption: D. C. Police C…",
+            "url": "https://wjla.com/news/local/dc-police-officer-2-others-shot-at-14th-u-street-nw",
+            "urlToImage": "https://wjla.com/resources/media/f8bb97eb-e47e-45cd-a1b5-d84de8ba7d5c-large16x9_Untitleddesign.png?1655713262763",
+            "publishedAt": "2022-06-20T08:15:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "TMZ"
+            },
+            "author": "TMZ Staff",
+            "title": "Soap Star Ashley Jones Officially Divorced, Gets Restraining Order Against Ex - TMZ",
+            "description": "'Bold and the Beautiful' star Ashley Jones is no longer married to her allegedly abusive husband ... but she's walking away with some court-ordered protection.",
+            "url": "https://www.tmz.com/2022/06/20/soap-actress-ashley-jones-divorce-official-restraining-order-ex-husband/",
+            "urlToImage": "https://imagez.tmz.com/image/b6/16by9/2022/06/16/b60a88373a6947469651aaa405b320ce_xl.jpg",
+            "publishedAt": "2022-06-20T07:50:00Z",
+            "content": "'Bold and the Beautiful' star Ashley Jones is no longer married to her allegedly abusive husband ... but she's walking away with some court-ordered protection.\r\nA judgment's been entered in her divor… [+1381 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Silvia Amaro",
+            "title": "France's Macron loses parliamentary majority, putting his economic reform agenda at risk - CNBC",
+            "description": "French President Emmanuel Macron's second term in office just got a lot more complicated.",
+            "url": "https://www.cnbc.com/2022/06/20/frances-macron-loses-parliamentary-majority-economic-reform-agenda-at-risk.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107078015-1655709921026-gettyimages-1241396983-AFP_32CR8JK.jpeg?v=1655718527&w=1920&h=1080",
+            "publishedAt": "2022-06-20T07:30:50Z",
+            "content": "French President Emmanuel Macron might have been relieved after getting reelected in April but his second term in office just got a lot more complicated.\r\nHis Ensemble! alliance has lost its absolute… [+3182 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ESPN"
+            },
+            "author": "Paolo Uggetti",
+            "title": "Will Zalatoris after third second-place finish at major - 'This one hurts' - ESPN",
+            "description": "Will Zalatoris missed a 14-foot birdie putt on the 18th hole at the U.S. Open that would have put him in a playoff with eventual winner Matt Fitzpatrick.",
+            "url": "https://www.espn.com/golf/story/_/id/34119565/will-zalatoris-third-second-place-finish-major-one-hurts",
+            "urlToImage": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F0620%2Fr1027050_1024x576_16%2D9.jpg",
+            "publishedAt": "2022-06-20T06:37:45Z",
+            "content": "BROOKLINE, Mass. -- Will Zalatoris came up short again, and this time, he thought he had it.\r\nAfter missing a 14-foot birdie putt on the 18th hole that would have put him in a playoff with winner Mat… [+3472 chars]"
+        },
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Samantha Schmidt",
+            "title": "Colombia elections: Gustavo Petro defeats Rodolfo Hernández for president - The Washington Post",
+            "description": "The leftist's win was a resounding rejection of the political establishment that has ruled the South American nation for two centuries.",
+            "url": "https://www.washingtonpost.com/world/2022/06/19/colombia-election-petro-rodolfo/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YXRYD7HQHII6ZLAWR67XDFGNPA.jpg&w=1440",
+            "publishedAt": "2022-06-20T05:16:00Z",
+            "content": "Placeholder while article actions load\r\nBOGOTÁ, Colombia Gustavo Petro, a former rebel who rallied young and poor voters with promises to transform an unequal society, was elected Colombias first lef… [+10140 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Formula 1"
+            },
+            "author": "F1",
+            "title": "Verstappen survives late Safety Car to beat Sainz to Canadian GP victory - Formula 1",
+            "description": "Max Verstappen claimed his fifth win in the last six races at the 2022 Canadian Grand Prix, withstanding a late onslaught from Ferrari’s Carlos Sainz, as Mercedes’ Lewis Hamilton took his second podium of the season in P3.",
+            "url": "https://www.formula1.com/en/latest/article.verstappen-survives-late-safety-car-to-beat-sainz-to-canadian-gp-victory.MSg7s89K4WtO2gD3UNaNh.html",
+            "urlToImage": "https://www.formula1.com/content/dam/fom-website/sutton/2022/Canada/Sunday/1403885003.jpg",
+            "publishedAt": "2022-06-20T04:33:30Z",
+            "content": "Max Verstappen claimed his fifth win in the last six races at the 2022 Canadian Grand Prix, withstanding a late onslaught from Ferraris Carlos Sainz, as Mercedes Lewis Hamilton took his second podium… [+10672 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Reuters",
+            "title": "Bitcoin recovers, climbs as much as 7.6% to pass $20,400 - CNN",
+            "description": "Bitcoin on Sunday rose as much as 7.6% to $20,404 from its previous close, signaling a recovery from a sharp drop on Saturday.",
+            "url": "https://www.cnn.com/2022/06/19/investing/bitcoin-price/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220619211316-bitcoin-file-super-tease.jpg",
+            "publishedAt": "2022-06-20T03:41:00Z",
+            "content": "Bitcoin on Sunday rose as much as 7.6% to $20,404 from its previous close, signaling a recovery from a sharp drop on Saturday.\r\nBitcoin, the world's biggest and best-known cryptocurrency, was up more… [+756 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Post"
+            },
+            "author": "Allie Griffin",
+            "title": "3 people, 2 dogs jump ship after New Hampshire yacht erupts in flames - New York Post ",
+            "description": "A massive yacht caught fire on a New Hampshire river Saturday and sank after three people and two dogs jumped overboard.",
+            "url": "https://nypost.com/2022/06/19/massive-yacht-erupts-in-flames-in-new-hampshire-river/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2022/06/yachtfire.jpg?quality=75&strip=all&w=1024",
+            "publishedAt": "2022-06-20T03:27:00Z",
+            "content": "A massive yacht caught fire on a New Hampshire river Saturday and sank after three people and two dogs jumped overboard. \r\nThe group were onboard the 72-foot vessel, named the Elusive, on their way t… [+789 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CBS Sports"
+            },
+            "author": "",
+            "title": "2022 U.S. Open: Matt Fitzpatrick's exhilarating victory reminds why major championship golf remains unmatched - CBS Sports",
+            "description": "Huge purses and international showcases have their allure, but there's still nothing like a major",
+            "url": "https://www.cbssports.com/golf/news/2022-u-s-open-matt-fitzpatricks-exhilarating-victory-reminds-why-major-championship-golf-remains-unmatched/",
+            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2022/06/20/6dc02dc2-29c0-4089-be85-ad662a25f83a/thumbnail/1200x675/8309cf63ee2fbebb2df4d15f2dee05e0/matt-fitzpatrick-caddie-us-open-2022-g.png",
+            "publishedAt": "2022-06-20T02:56:31Z",
+            "content": "BROOKLINE, Mass. -- This 2022 U.S Open week began with a discussion of the worst parts of professional golf and ended with a handful of moments that showcased the game at its best. \r\nMatt Fitzpatrick… [+8238 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Juneteenth is a paid federal holiday in these states - 11Alive",
+            "description": "The movement continues to grow.",
+            "url": "https://www.youtube.com/watch?v=1WzXaqAsnPk",
+            "urlToImage": "https://i.ytimg.com/vi/1WzXaqAsnPk/hqdefault.jpg",
+            "publishedAt": "2022-06-20T02:24:57Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "China says it tested missile-interception system - Reuters",
+            "description": "China has carried out a land-based missile interception test that \"achieved its expected purpose\", the Defence Ministry said, describing it as defensive and not aimed at any country.",
+            "url": "https://www.reuters.com/world/china/china-says-it-tested-missile-interception-system-2022-06-20/",
+            "urlToImage": "https://www.reuters.com/resizer/w3VkEwmHjiGmHTNXE8aCJ-_1_NI=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/PLCXG4FJ25LGLESZ4M2NX6C5A4.jpg",
+            "publishedAt": "2022-06-20T00:57:00Z",
+            "content": "SHANGHAI, June 20 (Reuters) - China has carried out a land-based missile interception test that \"achieved its expected purpose\", the Defence Ministry said, describing it as defensive and not aimed at… [+1704 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Guardian"
+            },
+            "author": "Samantha Lock, Maya Yang",
+            "title": "Russia-Ukraine war: what we know on day 117 of the invasion - The Guardian",
+            "description": "Zelenskiy says he expects Russia will intensify attacks on Ukraine and possibly strike other European countries this week",
+            "url": "https://amp.theguardian.com/world/2022/jun/20/russia-ukraine-war-what-we-know-on-day-117-of-the-invasion",
+            "urlToImage": null,
+            "publishedAt": "2022-06-20T00:35:00Z",
+            "content": "The war in Ukraine could last for years and will require long-term military support, according to Nato and other western leaders. We must prepare for the fact that it could take years, Natos secretar… [+200 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Cut"
+            },
+            "author": "Claire Comstock-Gay",
+            "title": "Weekly Horoscopes for the Week of June 20 by the Cut - The Cut",
+            "description": "On Tuesday morning, the sun enters caring, introspective Cancer. It’s time to feel your feelings.",
+            "url": "http://www.thecut.com/2022/06/weekly-horoscopes-for-the-week-of-june-20-by-the-cut.html",
+            "urlToImage": "https://pyxis.nymag.com/v1/imgs/288/9fa/76b7c8bf9ad50979ac2d5e0f0beab6338e-29-cancer-season-frida-kahlo.1x.rsocial.w1200.jpg",
+            "publishedAt": "2022-06-20T00:30:02Z",
+            "content": "On Tuesday morning, the sun enters caring, introspective Cancer. During the month ahead, your attention may shift from the world around you to the one within. If youve been neglecting your inner life… [+8106 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "Neelam Bohra",
+            "title": "Arizona Wildfire Destroys Observatory Buildings - The New York Times",
+            "description": "The Contreras fire has disrupted the work of astronomers, though the observatory’s scientific equipment remains safe for now.",
+            "url": "https://www.nytimes.com/2022/06/19/us/wildfire-arizona-kitt-peak-observatory.html",
+            "urlToImage": "https://static01.nyt.com/images/2022/06/19/us/00arizona-wildfire-1/00arizona-wildfire-1-facebookJumbo.jpg",
+            "publishedAt": "2022-06-19T22:46:56Z",
+            "content": "Dr. Schlegel works in the Dark Energy Spectroscopic Instrument program, which has used the observatory to map the universe by orders of magnitude. Simply assembling the technology required some 600,0… [+1381 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Emma Roth",
+            "title": "Telegram's Premium subscription is here and it costs $4.99 / month - The Verge",
+            "description": "Telegram’s new Premium subscription costs $4.99 and comes with a number of perks, including 4GB file uploads, faster downloads, and no ads.",
+            "url": "https://www.theverge.com/2022/6/19/23174976/telegram-premium-subscription-4-99-month-bigger-uploads-faster-downloads",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/sX51fAc2XHIX2ihPpHKKv88Tcig=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/10668741/acastro_180417_1777_telegram_0001.jpg",
+            "publishedAt": "2022-06-19T22:39:26Z",
+            "content": "Introducing bigger uploads, faster downloads, and exclusive stickers\r\nIllustration by Alex Castro / The Verge\r\nAfter announcing Telegram Premium earlier this month, the messaging app has finally roll… [+2613 chars]"
+        }
+    ]
+}

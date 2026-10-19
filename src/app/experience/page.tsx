@@ -1,47 +1,66 @@
-import { Briefcase, Calendar, Building2, ChevronRight, Terminal, Network, Code2, Cpu } from "lucide-react";
+import { Calendar, Building2, ChevronRight, Terminal, Network, Code2, Cpu, Globe2, Sparkles } from "lucide-react";
 import Link from "next/link";
+import type { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Experience | Rajat Tripathi",
-  description: "8 Years of Engineering Excellence across 3 Companies.",
+  description: "8+ Years of Engineering Excellence across production full-stack systems and AI engineering.",
 };
 
 export default function ExperiencePage() {
   const experiences = [
     {
       id: 1,
-      company: "TechNova Solutions",
-      role: "Senior Full-Stack AI Engineer",
-      period: "2021 - Present",
-      duration: "3 Years",
-      description: "Led the development of enterprise-grade AI applications, integrating LLMs into production workflows. Architected scalable microservices using Next.js, Node.js, and Python. Reduced latency by 40% and improved system reliability. Spearheaded a shift to vector databases for semantic search capabilities.",
-      skills: ["Next.js", "Python", "FastAPI", "OpenAI API", "AWS"],
+      company: "Calidig Solution",
+      role: "Senior Full-Stack & AI Engineer",
+      period: "2022 - Present",
+      duration: "3+ Years",
+      description: "Leading architectural design and engineering for mission-critical web applications. Integrating AI/LLM features into production applications, building resilient RAG pipelines, and deploying high-performance FastAPI and Next.js services. Mentoring developers on cloud architecture and shipping reliable, user-facing software.",
+      skills: ["React", "Next.js", "Node.js", "Python", "FastAPI", "Claude API", "PostgreSQL", "Docker"],
       icon: <Network className="w-6 h-6 text-orange-500" />
     },
     {
       id: 2,
-      company: "DataSphere AI",
-      role: "Full-Stack Developer",
-      period: "2018 - 2021",
-      duration: "3 Years",
-      description: "Built dynamic web interfaces and optimized backend infrastructure. Managed a team of 4 developers and successfully delivered 10+ major client projects on time. Implemented real-time data streaming and robust CI/CD pipelines, reducing deployment times by 60%.",
-      skills: ["React", "Node.js", "Express", "PostgreSQL", "Docker"],
-      icon: <Code2 className="w-6 h-6 text-orange-400" />
+      company: "Freelance",
+      role: "Freelance Full-Stack Developer",
+      period: "2021 - 2022",
+      duration: "1 Year",
+      description: "Partnered directly with international founders and agencies to deliver custom web platforms and mobile applications end to end. Owned the full lifecycle from system design, frontend development, database schema modeling to production deployment on AWS.",
+      skills: ["React", "React Native", "Node.js", "Express", "TypeScript", "MongoDB", "AWS"],
+      icon: <Globe2 className="w-6 h-6 text-amber-500" />
     },
     {
       id: 3,
-      company: "Quantum Web Corp",
-      role: "Frontend Engineer",
-      period: "2016 - 2018",
-      duration: "2 Years",
-      description: "Developed responsive and accessible user interfaces for e-commerce platforms. Collaborated with UX designers to translate complex wireframes into high-quality code. Boosted conversion rates by 25% through performance optimization and core web vitals improvements.",
-      skills: ["JavaScript", "HTML/CSS", "React", "Redux", "Figma"],
-      icon: <Cpu className="w-6 h-6 text-amber-500" />
+      company: "RB Tech Solution",
+      role: "Full-Stack Developer",
+      period: "2018 - 2021",
+      duration: "3 Years",
+      description: "Developed and maintained full-stack web applications, architecting responsive UIs and robust backend APIs. Optimized relational database performance in PostgreSQL, implemented secure authentication workflows, and improved continuous delivery pipelines.",
+      skills: ["React", "Angular", "TypeScript", "Node.js", "PostgreSQL", "Tailwind CSS", "Docker"],
+      icon: <Code2 className="w-6 h-6 text-orange-400" />
     }
   ];
 
   return (
     <div className="mx-auto max-w-5xl px-4 sm:px-8 py-20 min-h-screen">
+      {/* Remote Availability Banner */}
+      <div className="mb-12 p-4 sm:p-5 rounded-sm bg-neutral-900/60 border border-orange-500/30 flex items-center justify-between gap-4 flex-col sm:flex-row text-center sm:text-left">
+        <div className="flex items-center gap-3">
+          <span className="p-2 rounded-sm bg-orange-500/10 text-orange-400">
+            <Sparkles size={18} />
+          </span>
+          <p className="text-sm font-mono text-neutral-200">
+            <span className="text-orange-400 font-bold uppercase tracking-wider">Open to Remote:</span> Full-Stack &amp; AI Engineering roles. Bringing 8+ years of production experience plus hands-on ML and LLM skills.
+          </p>
+        </div>
+        <Link 
+          href="/#contact" 
+          className="shrink-0 text-xs font-mono font-bold uppercase tracking-widest bg-orange-500 hover:bg-orange-400 text-neutral-950 px-4 py-2 rounded-sm transition-colors"
+        >
+          Get In Touch
+        </Link>
+      </div>
+
       {/* Header Section */}
       <div className="mb-20 text-center relative">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-orange-500/10 blur-[100px] rounded-full -z-10 pointer-events-none"></div>
@@ -49,19 +68,19 @@ export default function ExperiencePage() {
           <Terminal size={16} /> Professional Journey
         </p>
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
-          8 Years of <br className="hidden sm:block" />
+          8+ Years of <br className="hidden sm:block" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-600">
             Engineering Excellence
           </span>
         </h1>
         <p className="text-lg text-neutral-400 max-w-2xl mx-auto font-mono">
-          A track record of building robust systems, leading technical initiatives, and delivering impactful solutions across 3 dynamic companies.
+          Proven history of building and scaling production software, mentoring teams, and seamlessly integrating practical AI into user-facing products.
         </p>
       </div>
 
       {/* Timeline Section */}
       <div className="relative border-l-2 border-neutral-800 ml-4 sm:ml-8 lg:ml-12 space-y-16 pb-12">
-        {experiences.map((exp, index) => (
+        {experiences.map((exp) => (
           <div key={exp.id} className="relative pl-8 sm:pl-16 group">
             {/* Timeline Node */}
             <div className="absolute -left-[17px] top-2 h-8 w-8 rounded-full bg-neutral-950 border-2 border-neutral-800 group-hover:border-orange-500 flex items-center justify-center transition-colors duration-500 z-10">

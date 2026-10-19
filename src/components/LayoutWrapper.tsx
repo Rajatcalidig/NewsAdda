@@ -2,6 +2,8 @@
 
 import { usePathname } from 'next/navigation';
 import Navigation from '@/components/Navigation';
+import ChatAssistant from '@/components/ChatAssistant';
+import WhatsAppFloatingButton from '@/components/WhatsAppFloatingButton';
 
 export default function LayoutWrapper({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -16,6 +18,8 @@ export default function LayoutWrapper({ children }: { children: React.ReactNode 
           <p>© {new Date().getFullYear()} ENGINEER_PORTFOLIO. ALL RIGHTS RESERVED.</p>
         </footer>
       )}
+      {!isAdmin && <ChatAssistant />}
+      {!isAdmin && <WhatsAppFloatingButton />}
     </>
   );
 }

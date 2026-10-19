@@ -1,11 +1,33 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { LayoutDashboard, FileText, FolderOpen, Mail, Briefcase, FileUp, Settings, PanelLeftClose, PanelLeftOpen } from "lucide-react";
 import SidebarLink from "./SidebarLink";
 
 export default function AdminSidebar() {
   const [isCollapsed, setIsCollapsed] = useState(false);
+  const [unreadCount, setUnreadCount] = useState<number>(0);
+
+  useEffect(() => {
+    const fetchUnread = async () => {
+      try {
+        const res = await fetch('/api/admin/notifications', { cache: 'no-store' });
+        if (res.ok) {
+          const data = await res.json();
+          setUnreadCount(data.unreadCount || 0);
+        }
+      } catch (e) {}
+    };
+
+    fetchUnread();
+    const interval = setInterval(fetchUnread, 30000);
+    const onFocus = () => fetchUnread();
+    window.addEventListener('focus', onFocus);
+    return () => {
+      clearInterval(interval);
+      window.removeEventListener('focus', onFocus);
+    };
+  }, []);
 
   return (
     <aside className={`border-r border-neutral-800 flex flex-col justify-between transition-all duration-300 ${isCollapsed ? 'w-20' : 'w-64'}`}>
@@ -26,7 +48,7 @@ export default function AdminSidebar() {
             <SidebarLink href="/admin" icon={<LayoutDashboard size={18} />} label={isCollapsed ? "" : "Dashboard"} collapsed={isCollapsed} />
             <SidebarLink href="/admin/posts" icon={<FileText size={18} />} label={isCollapsed ? "" : "Posts"} collapsed={isCollapsed} />
             <SidebarLink href="/admin/projects" icon={<FolderOpen size={18} />} label={isCollapsed ? "" : "Projects"} collapsed={isCollapsed} />
-            <SidebarLink href="/admin/messages" icon={<Mail size={18} />} label={isCollapsed ? "" : "Messages"} collapsed={isCollapsed} />
+            <SidebarLink href="/admin/messages" icon={<Mail size={18} />} label={isCollapsed ? "" : "Messages"} collapsed={isCollapsed} badge={unreadCount} />
             <SidebarLink href="/admin/jobs" icon={<Briefcase size={18} />} label={isCollapsed ? "" : "Jobs"} collapsed={isCollapsed} />
             <SidebarLink href="/admin/resume" icon={<FileUp size={18} />} label={isCollapsed ? "" : "Resume"} collapsed={isCollapsed} />
           </nav>

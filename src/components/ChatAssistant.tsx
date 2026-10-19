@@ -62,17 +62,17 @@ export default function ChatAssistant() {
       {/* Floating Action Button */}
       <button
         onClick={() => setIsOpen(true)}
-        className={`fixed bottom-6 right-6 z-50 p-4 bg-orange-500 text-neutral-950 rounded-full shadow-[0_0_20px_rgba(249,115,22,0.4)] hover:scale-110 hover:shadow-[0_0_30px_rgba(249,115,22,0.6)] transition-all duration-300 ${
+        className={`fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 p-3.5 sm:p-4 bg-orange-500 text-neutral-950 rounded-full shadow-[0_0_20px_rgba(249,115,22,0.4)] hover:scale-110 hover:shadow-[0_0_30px_rgba(249,115,22,0.6)] transition-all duration-300 ${
           isOpen ? "scale-0 opacity-0 pointer-events-none" : "scale-100 opacity-100"
         }`}
         aria-label="Open AI Chat"
       >
-        <MessageSquare size={24} />
+        <MessageSquare size={22} className="sm:w-6 sm:h-6" />
       </button>
 
       {/* Chat Window */}
       <div
-        className={`fixed bottom-6 right-6 z-50 w-full max-w-[380px] h-[550px] max-h-[85vh] flex flex-col bg-neutral-950/90 backdrop-blur-xl border border-neutral-800 rounded-2xl shadow-2xl shadow-black overflow-hidden transition-all duration-500 ease-out origin-bottom-right ${
+        className={`fixed bottom-4 right-4 left-4 sm:left-auto sm:right-6 z-50 w-auto sm:w-[380px] max-w-[calc(100vw-32px)] h-[520px] max-h-[82vh] flex flex-col bg-neutral-950/95 backdrop-blur-xl border border-neutral-800 rounded-2xl shadow-2xl shadow-black overflow-hidden transition-all duration-500 ease-out origin-bottom-right ${
           isOpen
             ? "scale-100 opacity-100 translate-y-0"
             : "scale-90 opacity-0 translate-y-10 pointer-events-none"

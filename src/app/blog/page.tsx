@@ -11,10 +11,11 @@ export const metadata = {
 export default async function BlogPage({
   searchParams,
 }: {
-  searchParams?: { q?: string; tag?: string };
+  searchParams?: Promise<{ q?: string; tag?: string }>;
 }) {
-  const query = searchParams?.q || "";
-  const tag = searchParams?.tag || "";
+  const resolvedParams = searchParams ? await searchParams : {};
+  const query = resolvedParams.q || "";
+  const tag = resolvedParams.tag || "";
 
   const whereClause: any = {
     status: 'PUBLISHED',

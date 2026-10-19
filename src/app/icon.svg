@@ -5,7 +5,7 @@
   fill="none" 
   xmlns="http://www.w3.org/2000/svg"
 >
-  {/* Large, bold 'R' in bright orange */}
+  <!-- Large, bold 'R' in bright orange -->
   <path 
     d="M15 20 V80 M15 20 H40 C55 20 55 50 40 50 H15 M35 50 L55 80" 
     stroke="#F97316" 
@@ -14,7 +14,7 @@
     strokeLinejoin="round" 
   />
   
-  {/* Large, bold 'T' in bright blue */}
+  <!-- Large, bold 'T' in bright blue -->
   <path 
     d="M55 20 H95 M75 20 V80" 
     stroke="#3B82F6" 

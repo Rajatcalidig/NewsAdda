@@ -73,7 +73,7 @@ export default async function AdminDashboard() {
                   </td>
                 </tr>
               ) : (
-                recentPosts.map((post) => (
+                recentPosts.map((post: any) => (
                   <tr key={post.id} className="border-b border-neutral-800/50 hover:bg-neutral-900/30 transition-colors group">
                     <td className="p-4">
                       <p className="text-white font-bold text-sm mb-1">{post.title}</p>

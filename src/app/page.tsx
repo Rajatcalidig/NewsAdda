@@ -147,7 +147,7 @@ export default async function Home() {
           <div className="flex flex-col p-4 border-b md:border-b-0 md:border-r border-neutral-800/80">
             <span className="text-orange-500 font-mono text-xs uppercase tracking-widest mb-1">Full Stack</span>
             <span className="text-2xl font-bold text-white mb-1">Production Core</span>
-            <span className="text-neutral-400 text-sm">React · Next.js · Node.js · FastAPI</span>
+            <span className="text-neutral-400 text-sm">React · Next.js · Angular · Node.js · FastAPI</span>
           </div>
           <div className="flex flex-col p-4">
             <span className="text-orange-500 font-mono text-xs uppercase tracking-widest mb-1">AI Stack</span>
